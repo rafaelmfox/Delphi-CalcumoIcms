@@ -1,0 +1,143 @@
+object Form4: TForm4
+  Left = 485
+  Height = 627
+  Top = 182
+  Width = 320
+  Caption = 'Form4'
+  ClientHeight = 627
+  ClientWidth = 320
+  LCLVersion = '1.8.2.0'
+  object btnCalcular: TButton
+    Left = 16
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Calcular'
+    OnClick = btnCalcularClick
+    TabOrder = 0
+  end
+  object edtValordoproduto: TEdit
+    Left = 136
+    Height = 23
+    Top = 24
+    Width = 168
+    TabOrder = 1
+    Text = '0'
+  end
+  object lblValorProduto: TLabel
+    Left = 16
+    Height = 15
+    Top = 32
+    Width = 90
+    Caption = 'Valor do produto'
+    ParentColor = False
+  end
+  object edtquantiadoproduto: TEdit
+    Left = 136
+    Height = 23
+    Top = 56
+    Width = 168
+    TabOrder = 2
+    Text = '1'
+  end
+  object lblquantiadoproduto: TLabel
+    Left = 16
+    Height = 15
+    Top = 64
+    Width = 105
+    Caption = 'Quantia do produto'
+    ParentColor = False
+  end
+  object edtalicota: TEdit
+    Left = 136
+    Height = 23
+    Top = 88
+    Width = 168
+    TabOrder = 3
+    Text = '0,18'
+  end
+  object lblalicota: TLabel
+    Left = 16
+    Height = 15
+    Top = 96
+    Width = 50
+    Caption = 'Alicota %'
+    ParentColor = False
+  end
+  object edtFrete: TEdit
+    Left = 136
+    Height = 23
+    Top = 120
+    Width = 168
+    TabOrder = 4
+    Text = '0'
+  end
+  object lblFrete: TLabel
+    Left = 16
+    Height = 15
+    Top = 128
+    Width = 26
+    Caption = 'Frete'
+    ParentColor = False
+  end
+  object btnLimpar: TButton
+    Left = 96
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = 'Limpar'
+    OnClick = btnLimparClick
+    TabOrder = 5
+  end
+  object lblbaseicms: TLabel
+    Left = 16
+    Height = 15
+    Top = 224
+    Width = 55
+    Caption = 'Base ICMS'
+    ParentColor = False
+  end
+  object lblvaloricms: TLabel
+    Left = 16
+    Height = 15
+    Top = 264
+    Width = 58
+    Caption = 'Valor ICMS'
+    ParentColor = False
+  end
+  object edtbaseicms: TEdit
+    Left = 136
+    Height = 23
+    Top = 216
+    Width = 168
+    TabOrder = 6
+    Text = '0'
+  end
+  object edtvaloricms: TEdit
+    Left = 136
+    Height = 23
+    Top = 256
+    Width = 168
+    TabOrder = 7
+    Text = '0'
+  end
+  object memo1: TMemo
+    Left = 8
+    Height = 200
+    Top = 296
+    Width = 296
+    Lines.Strings = (
+      'memo1'
+    )
+    TabOrder = 8
+  end
+  object btnlimpamemo: TButton
+    Left = 8
+    Height = 25
+    Top = 504
+    Width = 113
+    Caption = 'Limpa Memoria'
+    OnClick = btnlimpamemoClick
+    TabOrder = 9
+  end
+end
